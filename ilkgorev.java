@@ -27,7 +27,7 @@ public class ilk_Gorev {
         System.out.println("Not ortalamaniz: " + ortalama);
 
         boolean kosul = ortalama > 50;
-        System.out.println("Dersten " + (kosul == true ? "gectiniz" : "kaldiniz"));
+        System.out.println("Sınıftan " + (kosul == true ? "gectiniz" : "kaldiniz"));
 
     }
 }
