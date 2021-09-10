@@ -23,11 +23,9 @@ public class ilk_Gorev {
         int muzik = input.nextInt();
 
         double ortalama = (matematik + turkce + fizik + kimya + tarih + muzik) / 6;
-
-        System.out.println("Not ortalamaniz: " + ortalama);
-
         boolean kosul = ortalama > 50;
+        
+        System.out.println("Not ortalamaniz: " + ortalama);
         System.out.println("Sınıftan " + (kosul == true ? "gectiniz" : "kaldiniz"));
-
     }
 }
