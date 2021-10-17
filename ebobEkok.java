@@ -4,7 +4,6 @@ public class ebobEkok {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int sayi1, sayi2, ebob = 1, ekok = 1;
-        System.out.println("\n!!! EBOB VE EKOK BULAN PROGRAM (WHILE DÖNGÜSÜ) !!!\n");
 
         System.out.print("1. Sayıyı giriniz: ");
         sayi1 = input.nextInt();
